@@ -17,14 +17,9 @@ You can run it at https://mks-img-search-al-api.herokuapp.com/
 
   `npm install mongodb --save`
 
-* assert:
-
-  `npm install assert --save`
-
 * google-api-nodejs-client:
 
   `npm install googleapis --save`
-
 
 ## User Stories
 
@@ -41,20 +36,18 @@ https://mks-img-search-al-api.herokuapp.com/imagesearch/lolcats funny?offset=2
 ##Search Output
 
 [
-
     {
-        "url": "https://s-media-cache-ak0.pinimg.com/736x/3d/eb/a0/3deba0e817b6bac73ecc58dfe9422902.jpg",
-        "snippet": "... the funniest LoLCats we've ...",
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqEhjFqs8e8b_5sGm7m2byTngPrEbyuGyGbG4yLSoc4Si9fw8mxvgXS72E",
-        "context": "https://www.pinterest.com/pin/249246160601850881/"
+        "url": "http://www.lolcats.com/images/u/08/50/lolcatsdotcomrq4lywopmz2tyzsb.jpg",
+        "snippet": "Ehh.. A Wize Guy Heh?",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRwC1Qu-zMGPmny2gkfRQHiZOy8-Jp46SUBmmuwdfq0yD6J_lBSzt-xBQ",
+        "context": "http://www.lolcats.com/page-6.html"
     },
     {
-        "url": "http://www.bajiroo.com/wp-content/uploads/2013/06/funny-lol-cats-fun-pics-images-photos-pictures-5.jpg",
-        "snippet": "funny-lol-cats-fun-pics-images ...",
-        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUXCGnfYdIRdxb86GIz-VCaSsgmgG5uS27hMCq1IquRvSTd2zwQwtphXA",
-        "context": "http://www.bajiroo.com/33-funniest-lolcats-ever"
+        "url": "http://data.whicdn.com/images/17561072/funny-pictures-marshmallows_large.jpg",
+        "snippet": "Hall Of Fame Lolcats 39 N",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjFazFat4V8qWOWaZf2UtPsxZqz9RkOHX2mpHQ9PlOTIX7Z20MrPBoa0I",
+        "context": "http://lovelydogandcat.thesocialmediastore.net/lolcats-images-funny/"
     }
-
 ]
 
 ##Latest Queries Usage
@@ -64,46 +57,44 @@ https://mks-img-search-al-api.herokuapp.com/latest/imagesearch/
 ##Latest Queries Output
 
 [
-
     {
         "term": "new year australia",
-        "when": "2017-01-01T05:44:37.451Z"
+        "when": "2017-01-03T08:10:21.303Z"
     },
     {
         "term": "brisbane river festival",
-        "when": "2017-01-01T05:07:16.924Z"
+        "when": "2017-01-03T08:10:09.343Z"
     },
     {
         "term": "gold coast",
-        "when": "2017-01-01T05:06:20.641Z"
+        "when": "2017-01-03T08:10:01.905Z"
     },
     {
         "term": "lone pine koala sanctuary",
-        "when": "2017-01-01T05:03:29.092Z"
+        "when": "2017-01-03T08:09:52.109Z"
     },
     {
         "term": "sunrise scene",
-        "when": "2017-01-01T05:03:21.238Z"
+        "when": "2017-01-03T08:09:39.381Z"
     },
     {
         "term": "garden",
-        "when": "2017-01-01T05:03:06.812Z"
+        "when": "2017-01-03T08:09:30.444Z"
     },
     {
         "term": "sunshine",
-        "when": "2017-01-01T05:02:13.278Z"
+        "when": "2017-01-03T08:09:19.951Z"
     },
     {
         "term": "flowers",
-        "when": "2017-01-01T04:06:39.993Z"
+        "when": "2017-01-03T08:09:09.823Z"
     },
     {
         "term": "freecodecamp",
-        "when": "2016-12-31T21:57:30.873Z"
+        "when": "2017-01-03T08:08:57.684Z"
     },
     {
         "term": "lolcats funny",
-        "when": "2016-12-31T20:46:48.582Z"
+        "when": "2017-01-03T08:07:49.561Z"
     }
-
 ]
