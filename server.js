@@ -1,7 +1,7 @@
 'use strict';
 
-const express = require('express');
-const app = express();
+var express = require('express');
+var app = express();
 require('dotenv').config({
     silent: true
 });
@@ -11,8 +11,8 @@ app.use(express.static(__dirname + '/views'));
 
 var port = process.env.PORT || 8080;
 
-const googleSearch = require('./search.google');
-const mongoDB = require('./db.mongo');
+var googleSearch = require('./search.google');
+var mongoDB = require('./db.mongo');
 var mongoCollection = 'latest';
 
 app.get('/imagesearch/:query', function (req, res) {
