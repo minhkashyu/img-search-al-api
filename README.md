@@ -1,6 +1,7 @@
 # Image Search Abstraction Layer API
 
 Image Search Abstraction Layer Api repository.
+
 You can run it at https://mks-img-search-al-api.herokuapp.com/
 
 ## Requirements
@@ -31,11 +32,12 @@ You can run it at https://mks-img-search-al-api.herokuapp.com/
 
 ##Search Usage
 
-https://mks-img-search-al-api.herokuapp.com/imagesearch/lolcats funny?offset=2
+`https://mks-img-search-al-api.herokuapp.com/imagesearch/lolcats funny?offset=2`
 
 ##Search Output
 
 [
+
     {
         "url": "http://www.lolcats.com/images/u/08/50/lolcatsdotcomrq4lywopmz2tyzsb.jpg",
         "snippet": "Ehh.. A Wize Guy Heh?",
@@ -48,6 +50,7 @@ https://mks-img-search-al-api.herokuapp.com/imagesearch/lolcats funny?offset=2
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjFazFat4V8qWOWaZf2UtPsxZqz9RkOHX2mpHQ9PlOTIX7Z20MrPBoa0I",
         "context": "http://lovelydogandcat.thesocialmediastore.net/lolcats-images-funny/"
     }
+
 ]
 
 ##Latest Queries Usage
@@ -57,6 +60,7 @@ https://mks-img-search-al-api.herokuapp.com/latest/imagesearch/
 ##Latest Queries Output
 
 [
+
     {
         "term": "new year australia",
         "when": "2017-01-03T08:10:21.303Z"
@@ -97,4 +101,5 @@ https://mks-img-search-al-api.herokuapp.com/latest/imagesearch/
         "term": "lolcats funny",
         "when": "2017-01-03T08:07:49.561Z"
     }
+
 ]
